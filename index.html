@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Kulsum</title>
+    <meta
+      name="description"
+      content="A dreamy romantic interactive experience made for Kulsum."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Dancing+Script:wght@500;700&family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loader" class="loader-screen">
+      <div class="loader-orb"></div>
+      <div class="loader-content">
+        <p class="loader-kicker">A little universe made for you</p>
+        <h1>A soft world for Kulsum</h1>
+        <p>Open with care, it is filled with love and quiet magic.</p>
+        <button id="enterButton" class="btn-primary">Enter With a Smile</button>
+      </div>
+    </div>
+
+    <div id="page" class="page hidden">
+      <div class="progress-bar" id="progressBar"></div>
+      <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+      <div class="cursor-glow"></div>
+      <div id="floatingLayer" class="floating-layer"></div>
+
+      <header class="hero min-h-screen px-6 py-8 lg:px-12">
+        <div class="container mx-auto">
+          <div class="flex justify-end mb-6">
+            <button id="audioToggle" class="glass-pill">
+              <i class="fa-solid fa-music"></i>
+              <span>Soft audio off</span>
+            </button>
+          </div>
+
+          <div class="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+            <div class="max-w-3xl">
+              <p class="eyebrow">for my cutie patootie</p>
+              <h1 class="hero-title">
+                For My <span class="script-text">Cutie Patootie</span>, Kulsum
+              </h1>
+              <p id="typewriter" class="hero-subtitle"></p>
+              <div class="flex flex-wrap gap-4 mt-8">
+                <a href="#letter" class="btn-primary magnetic">Open My Heart</a>
+                <a href="#journey" class="btn-secondary magnetic"
+                  >Scroll Through Our Little World</a
+                >
+              </div>
+              <div class="mini-note reveal mt-10">
+                <p class="mini-label">A little note for the lovely one</p>
+                <p>
+                  Some names feel like home before you even know why. Kulsum,
+                  you have become a soft kind of forever in my heart.
+                </p>
+              </div>
+            </div>
+
+            <div class="hero-card reveal">
+              <div class="hero-card-inner">
+                <p class="card-kicker">My favorite thought</p>
+                <h3>
+                  When the world feels a little loud, I think of your calm.
+                </h3>
+                <p>
+                  You make softness look effortless, and even ordinary days feel
+                  touched by kindness.
+                </p>
+                <div class="stars-row">
+                  <span>✦</span><span>✦</span><span>✦</span><span>✦</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="special" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">why you are so special</p>
+              <h2>Everything about you feels like a quiet luxury.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              <article class="feature-card reveal">
+                <div class="icon-bubble">
+                  <i class="fa-solid fa-face-smile"></i>
+                </div>
+                <h3>Your Smile</h3>
+                <p>
+                  It has a way of turning the smallest moment into something
+                  tender and bright.
+                </p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="icon-bubble"><i class="fa-solid fa-heart"></i></div>
+                <h3>Your Softness</h3>
+                <p>
+                  You carry gentleness so naturally, as if kindness is your
+                  favorite language.
+                </p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="icon-bubble"><i class="fa-solid fa-cloud"></i></div>
+                <h3>The Way You Exist</h3>
+                <p>
+                  Even your presence feels like a soft breeze and a warm glow
+                  all at once.
+                </p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="icon-bubble"><i class="fa-solid fa-moon"></i></div>
+                <h3>Your Calm</h3>
+                <p>
+                  You bring a stillness that makes everything inside me breathe
+                  a little easier.
+                </p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="icon-bubble">
+                  <i class="fa-solid fa-sparkles"></i>
+                </div>
+                <h3>Your Cute Chaos</h3>
+                <p>
+                  Even the little bits of playfulness in you make my heart feel
+                  wonderfully alive.
+                </p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="icon-bubble"><i class="fa-solid fa-gem"></i></div>
+                <h3>Your Kind Heart</h3>
+                <p>
+                  You make gentleness feel rare and beautiful, and I admire that
+                  deeply.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="letter" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">a letter i wanted you to feel</p>
+              <h2>A little letter made of warmth and longing.</h2>
+            </div>
+            <div class="letter-card reveal">
+              <div class="letter-top">
+                <p>To Kulsum</p>
+                <p class="script-text">With all my heart</p>
+              </div>
+              <div class="letter-body">
+                <p class="reveal">
+                  My dear Kulsum, there are some people who arrive in your life
+                  and quietly change the shape of your thoughts. You are one of
+                  those rare souls. Soft, luminous, and impossible to forget.
+                </p>
+                <p class="reveal">
+                  I find myself thinking about the way you make ordinary moments
+                  feel sweeter. The way your warmth seems to sit around the
+                  edges of everything beautiful. The way your kindness lingers
+                  long after the day has gone quiet.
+                </p>
+                <p class="reveal">
+                  I adore the little things that make you you. The gentleness in
+                  your voice, the glow in your smile, the calm you create
+                  without trying. There is a tenderness in your presence that
+                  feels almost sacred.
+                </p>
+                <p class="reveal">
+                  If I could build a thousand little worlds, I would fill them
+                  with the same softness you bring into my thoughts. I would
+                  place lilies in the corners, cheesecake in the moonlight, and
+                  your name in every warm light that glows at dusk.
+                </p>
+                <p class="reveal">
+                  You are not just someone I admire. You are someone I carry in
+                  the gentlest part of my heart, the part that likes to imagine,
+                  to dream, and to hope. I hope you always know how deeply you
+                  are cherished.
+                </p>
+              </div>
+              <div class="letter-signature">
+                <p class="script-text">Yours,</p>
+                <p>Araib</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="journey" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">our little story</p>
+              <h2>A tender path of feelings and soft memories.</h2>
+            </div>
+            <div class="timeline">
+              <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <h3>The moment you became special</h3>
+                  <p>
+                    It was not dramatic. It was quiet. But something in me
+                    changed the moment your light became familiar.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <h3>When I started smiling more</h3>
+                  <p>
+                    Your name began to feel like a warm thought that visited me
+                    at the gentlest hours.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <h3>When my thoughts began carrying your name</h3>
+                  <p>
+                    Somewhere between ordinary days, your presence became a
+                    soft, steady glow in my mind.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <h3>The little things I started noticing</h3>
+                  <p>
+                    The way your kindness lingers, the calm you leave behind,
+                    the sweetness in the smallest gestures.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <h3>The safe corner in my heart</h3>
+                  <p>
+                    You became the kind of feeling that brings comfort without
+                    asking anything in return.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">memory gallery</p>
+              <h2>A dreamy wall of soft little keepsakes.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              <article class="polaroid-card reveal">
+                <div class="polaroid-photo photo-one"></div>
+                <p>Your cutest smile goes here.</p>
+              </article>
+              <article class="polaroid-card reveal">
+                <div class="polaroid-photo photo-two"></div>
+                <p>Our favorite moment, wrapped in blush and light.</p>
+              </article>
+              <article class="polaroid-card reveal">
+                <div class="polaroid-photo photo-three"></div>
+                <p>One of the million reasons I adore you.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="adoration" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">things i adore about you</p>
+              <h2>Every little thing feels like a sweet secret.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              <div class="flip-card reveal" data-flip="true">
+                <div class="flip-card-inner">
+                  <div class="flip-face flip-front">
+                    <h3>Your Eyes</h3>
+                    <p>Tap to see why</p>
+                  </div>
+                  <div class="flip-face flip-back">
+                    <p>
+                      They hold a softness that makes it hard to look away and
+                      even harder to forget.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card reveal" data-flip="true">
+                <div class="flip-card-inner">
+                  <div class="flip-face flip-front">
+                    <h3>Your Smile</h3>
+                    <p>Tap to see why</p>
+                  </div>
+                  <div class="flip-face flip-back">
+                    <p>It feels like morning light, warm and quietly brave.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card reveal" data-flip="true">
+                <div class="flip-card-inner">
+                  <div class="flip-face flip-front">
+                    <h3>Your Voice</h3>
+                    <p>Tap to see why</p>
+                  </div>
+                  <div class="flip-face flip-back">
+                    <p>
+                      It makes everything feel gentler, safer, and more
+                      intimate.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card reveal" data-flip="true">
+                <div class="flip-card-inner">
+                  <div class="flip-face flip-front">
+                    <h3>Your Innocence</h3>
+                    <p>Tap to see why</p>
+                  </div>
+                  <div class="flip-face flip-back">
+                    <p>
+                      There is something bright and beautiful about the way you
+                      simply exist.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card reveal" data-flip="true">
+                <div class="flip-card-inner">
+                  <div class="flip-face flip-front">
+                    <h3>Your Strength</h3>
+                    <p>Tap to see why</p>
+                  </div>
+                  <div class="flip-face flip-back">
+                    <p>
+                      Even your quiet strength feels graceful and deeply
+                      comforting.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card reveal" data-flip="true">
+                <div class="flip-card-inner">
+                  <div class="flip-face flip-front">
+                    <h3>Your Laugh</h3>
+                    <p>Tap to see why</p>
+                  </div>
+                  <div class="flip-face flip-back">
+                    <p>
+                      It is the sound of lightness, and it makes my heart feel
+                      instantly lighter too.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="metrics" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">live love metrics</p>
+              <h2>
+                A tiny constellation of heartbeats and sweet little numbers.
+              </h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+              <div class="stat-card reveal">
+                <h3 class="counter" data-target="999">0</h3>
+                <p>plus reasons to adore you</p>
+              </div>
+              <div class="stat-card reveal">
+                <h3 class="counter" data-target="100">0</h3>
+                <p>percent heart stolen by Kulsum</p>
+              </div>
+              <div class="stat-card reveal">
+                <h3 class="counter" data-target="24">0</h3>
+                <p>hours of dreamy thoughts</p>
+              </div>
+              <div class="stat-card reveal">
+                <h3 class="counter" data-target="1">0</h3>
+                <p>very lucky person building this</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="secrets" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">secret messages</p>
+              <h2>Open the little envelopes when you need a soft reminder.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+              <button
+                class="note-card reveal"
+                data-title="Open when you miss me"
+                data-message="I would reach for you in every tender way if I could, just to make your heart feel less far away."
+              >
+                <i class="fa-solid fa-envelope"></i>
+                <span>Open when you miss me</span>
+              </button>
+              <button
+                class="note-card reveal"
+                data-title="Open when you need a smile"
+                data-message="You deserve to be smiled at by the whole world, but especially by me."
+              >
+                <i class="fa-solid fa-face-laugh-beam"></i>
+                <span>Open when you need a smile</span>
+              </button>
+              <button
+                class="note-card reveal"
+                data-title="Open when you doubt how loved you are"
+                data-message="If comfort had a face, I think it would borrow a little from you and a little from the way I think of you."
+              >
+                <i class="fa-solid fa-heart-circle-check"></i>
+                <span>Open when you doubt how loved you are</span>
+              </button>
+              <button
+                class="note-card reveal"
+                data-title="Open for a surprise"
+                data-message="You are loved in the quiet places, the bright places, and every space in between."
+              >
+                <i class="fa-solid fa-stars"></i>
+                <span>Open for a surprise</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="poetic" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">if you were</p>
+              <h2>Poetic little answers for the one I adore.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              <article class="quote-card reveal">
+                <h3>If you were a season</h3>
+                <p>You would be spring, soft and full of new bloom.</p>
+              </article>
+              <article class="quote-card reveal">
+                <h3>If you were a place</h3>
+                <p>
+                  You would be somewhere warm and golden, where the air feels
+                  kind.
+                </p>
+              </article>
+              <article class="quote-card reveal">
+                <h3>If you were a song</h3>
+                <p>
+                  You would be the kind that settles in the heart and never
+                  leaves.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="constellation" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="constellation-card reveal">
+              <div class="constellation-copy">
+                <p class="eyebrow">night sky love</p>
+                <h2>
+                  If I had to pin every lovely thing about you into the sky,
+                  even the stars would run out of space.
+                </h2>
+                <p>
+                  Some names feel like moonlight. Some names feel like peace.
+                  Kulsum feels like both.
+                </p>
+              </div>
+              <div class="constellation-visual" id="constellationVisual"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="world" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">a world made of you</p>
+              <h2>Even the smallest things remind me of your beauty.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+              <article class="world-card reveal">
+                <i class="fa-solid fa-sun"></i>
+                <h3>Sunrise</h3>
+                <p>Soft and golden like your gentleness.</p>
+              </article>
+              <article class="world-card reveal">
+                <i class="fa-solid fa-moon"></i>
+                <h3>Moonlight</h3>
+                <p>Quiet and tender, like your calm.</p>
+              </article>
+              <article class="world-card reveal">
+                <i class="fa-solid fa-seedling"></i>
+                <h3>Flowers</h3>
+                <p>Delicate and graceful, just like you.</p>
+              </article>
+              <article class="world-card reveal">
+                <i class="fa-solid fa-fire"></i>
+                <h3>Warmth</h3>
+                <p>Everything about your presence feels like comfort.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="game" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">little interactive delight</p>
+              <h2>Catch the hearts and collect the reasons I love you.</h2>
+            </div>
+            <div class="game-card reveal">
+              <div class="game-panel">
+                <p class="game-label">Collected hearts</p>
+                <div id="heartScore" class="game-score">0</div>
+                <p class="game-caption">
+                  Tap around the soft garden to gather little compliments.
+                </p>
+              </div>
+              <div id="gameArena" class="game-arena"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="playlist" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="section-heading reveal">
+              <p class="eyebrow">playlist for your heart</p>
+              <h2>Songs that feel like you, in the gentlest way.</h2>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              <article class="playlist-card reveal">
+                <div class="disc"></div>
+                <h3>Moonlit Softness</h3>
+                <p>For evenings when everything feels tender and still.</p>
+              </article>
+              <article class="playlist-card reveal">
+                <div class="disc"></div>
+                <h3>Blush and Stardust</h3>
+                <p>
+                  For the kind of feeling that glows quietly from the inside.
+                </p>
+              </article>
+              <article class="playlist-card reveal">
+                <div class="disc"></div>
+                <h3>Forever in a Whisper</h3>
+                <p>For the little romance that lives in the heart all day.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="final" class="section px-6 py-20 lg:px-12">
+          <div class="container mx-auto">
+            <div class="final-card reveal">
+              <p class="eyebrow">final note</p>
+              <h2>Thank you for existing, Kulsum.</h2>
+              <p>
+                There are moments in life that feel ordinary until someone
+                beautiful changes the way they shine. You are one of those
+                moments. One of those soft, lasting, unforgettable lights.
+              </p>
+              <p>
+                I hope this little world reminds you that your presence matters,
+                your kindness matters, and your heart matters more than you may
+                ever know.
+              </p>
+              <button id="surpriseButton" class="btn-primary magnetic">
+                One More Little Surprise
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="px-6 py-8 text-center text-sm text-soft">
+        <p>Made with all my heart for Kulsum</p>
+      </footer>
+    </div>
+
+    <div id="modal" class="modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button id="closeModal" class="modal-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3 id="modalTitle">A little secret</h3>
+        <p id="modalMessage"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
